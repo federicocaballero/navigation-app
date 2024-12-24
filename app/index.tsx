@@ -4,7 +4,7 @@ import { Link, Redirect } from 'expo-router'
 
 const App = () => {
   return (
-    <Redirect href={'/tabs'} />
+    <Redirect href={'/drawer'} />
   )
 }
 
