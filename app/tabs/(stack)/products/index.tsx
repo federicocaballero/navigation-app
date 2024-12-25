@@ -19,7 +19,7 @@ const Products = () => {
               <Text className='font-work-black'>{item.title}</Text>
               <Pressable onPress={() => router.push(
                 {
-                  pathname: `/products/productDetails`,
+                  pathname: `/tabs/(stack)/products/productDetails`,
                   params: { title: item.title, description: item.description, price: item.price, id: item.id }
                 })}>
                 <Text className='text-primary'>Ver detalless</Text>
